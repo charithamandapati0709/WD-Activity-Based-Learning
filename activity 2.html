@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor Appointment Booking</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <header>
+        <h1>HealthCare Clinic</h1>
+        <p>Your Health, Our Priority</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#doctors">Our Doctors</a>
+        <a href="#booking">Book Appointment</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome to HealthCare Clinic</h2>
+        <p>Find the right doctor and book your appointment easily.</p>
+        <a href="#booking" class="button">Book Now</a>
+    </section>
+
+    <h2 class="heading" id="doctors">Our Doctors</h2>
+
+    <section class="doctors">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500"
+                 alt="General physician">
+            <h3>Dr. Rahul Sharma</h3>
+            <p>Specialization: General Physician</p>
+            <p>Experience: 8 Years</p>
+            <p>Available: 9 AM - 12 PM</p>
+            <p>Consultation: ₹500</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500"
+                 alt="Pediatrician">
+            <h3>Dr. Priya Reddy</h3>
+            <p>Specialization: Pediatrician</p>
+            <p>Experience: 6 Years</p>
+            <p>Available: 10 AM - 1 PM</p>
+            <p>Consultation: ₹400</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=500"
+                 alt="Cardiologist">
+            <h3>Dr. Arjun Kumar</h3>
+            <p>Specialization: Cardiologist</p>
+            <p>Experience: 10 Years</p>
+            <p>Available: 2 PM - 5 PM</p>
+            <p>Consultation: ₹700</p>
+        </div>
+
+    </section>
+
+    <section class="booking" id="booking">
+        <h2>Book an Appointment</h2>
+
+        <form>
+            <label>Patient Name:</label>
+            <input type="text" placeholder="Enter your name" required><br>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email" required><br>
+
+            <label>Select Doctor:</label>
+            <select required>
+                <option value="">Choose a doctor</option>
+                <option>Dr. Rahul Sharma</option>
+                <option>Dr. Priya Reddy</option>
+                <option>Dr. Arjun Kumar</option>
+            </select><br>
+
+            <label>Appointment Date:</label><b></b>
+            <input type="date" required><br>
+
+            <label>Appointment Time:</label><br>
+            <select required><br>
+                <option value="">Choose a time</option>
+                <option>9 AM - 10 AM</option>
+                <option>10 AM - 11 AM</option>
+                <option>2 PM - 3 PM</option>
+                <option>3 PM - 4 PM</option>
+            </select><br>
+
+            <input type="submit" value="Book Appointment"><br>
+        </form>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: healthcare@example.com</p>
+        <p>Phone: 9876543210</p>
+        <p>Address: Main Road, Vijayawada</p>
+    </section>
+
+    <footer>
+        <p>HealthCare Clinic | Stay Healthy, Stay Happy!</p>
+    </footer>
+
+</body>
+</html>
+
