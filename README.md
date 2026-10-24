@@ -1,6 +1,9 @@
-M.v.n.s.charitha
-CSE-2
-roll no.26000099
-1.adventure and trekking website
-2.doctor appoinment booking interface
-3.student academic dashboard
+| Name | Section | Roll No. |
+|---|---|---|
+| M.v.n.s.charitha | CSE-2 | 26000099 |
+
+### Projects
+
+1. Adventure and Trekking Website
+2. Doctor Appointment Booking Interface
+3. Student Academic Dashboard
